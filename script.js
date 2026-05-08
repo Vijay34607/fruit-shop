@@ -70,6 +70,11 @@ document.addEventListener('DOMContentLoaded', () => {
     loadCartFromStorage();
 });
 
+function toggleNav() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
+
 // Render Products
 function renderProducts() {
     const productsGrid = document.getElementById('productsGrid');
@@ -501,6 +506,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                     block: 'start'
                 });
             }
+        }
+
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks && navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
         }
     });
 });

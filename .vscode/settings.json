@@ -1,0 +1,8 @@
+{
+  "python.linting.enabled": false,
+  "python.analysis.disabled": true,
+  "[python]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false
+  }
+}
