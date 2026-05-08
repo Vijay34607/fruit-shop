@@ -31,7 +31,7 @@ const products = [
     {
         id: 5,
         name: 'Green Grapes',
-        imageUrl: 'images/mae-mu-U1iYwZ8Dx7k-unsplash.jpg',
+        imageUrl: 'images/engin-akyurt-g4LcQ1Ry-HY-unsplash.jpg',
         price: 280,
         description: 'Seedless green grapes, sweet and refreshing'
     },
